@@ -1,0 +1,29 @@
+[
+    {
+        "insert": "Campaign",
+        "documents": [
+            {
+                "_id": {
+                    "$oid": "62cc3645c78b1223777d8323"
+                },
+                "entity_id": "campaign-62cc3645c78b1223777d8323",
+                "name": "test",
+                "agency_id": {
+                    "$oid": "62cc3645c78b1223777d831d"
+                },
+                "start_date": {
+                    "$date": {
+                        "$numberLong": "1656633600000"
+                    }
+                },
+                "end_date": {
+                    "$date": {
+                        "$numberLong": "33213542400000"
+                    }
+                },
+                "is_archive": false
+            }
+        ],
+        "ordered": false
+    }
+]

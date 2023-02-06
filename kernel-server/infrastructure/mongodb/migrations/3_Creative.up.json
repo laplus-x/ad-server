@@ -1,0 +1,32 @@
+[
+    {
+        "insert": "Creative",
+        "documents": [
+            {
+                "_id": {
+                    "$oid": "62cc3645c78b1223777d8329"
+                },
+                "entity_id": "creative-62cc3645c78b1223777d8329",
+                "_type": "banner",
+                "name": "test",
+                "campaign_id": {
+                    "$oid": "62cc3645c78b1223777d8323"
+                },
+                "is_archive": false,
+                "trackings": [
+                    {
+                        "id": "image-1",
+                        "event": "click",
+                        "uris": ["uri"]
+                    }
+                ],
+                "image": {
+                    "id": "image-1",
+                    "uri": "uri",
+                    "landing_page": "landing_page"
+                }
+            }
+        ],
+        "ordered": false
+    }
+]

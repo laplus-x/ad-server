@@ -1,0 +1,16 @@
+[
+    {
+        "insert": "Agency",
+        "documents": [
+            {
+                "_id": {
+                    "$oid": "62cc3645c78b1223777d831d"
+                },
+                "entity_id": "agency-62cc3645c78b1223777d831d",
+                "name": "test",
+                "is_archive": false
+            }
+        ],
+        "ordered": false
+    }
+]
